@@ -1,0 +1,211 @@
+/*CSS Reset*/
+body {
+  
+  padding: 0px;
+  margin: 0px;
+  height: 10000px;
+  background: url("img/R.jpg");
+  background-repeat: no-repeat;
+  background-color: #f9ede4;
+  background-size: 2300px;
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: 65px;
+  width: 400px;
+}
+
+.mid {
+  background-color: #a05a81b8;
+  height: 159px;
+  display: block;
+  width: 2278px;
+  font-size: x-large;
+  margin: 20px auto;
+  text-align: center;
+
+  padding: 40px;
+  box-sizing: border-box;
+  word-spacing: 60px;
+}
+
+.right {
+  position: absolute;
+    top: 55px;
+    right: 0px;
+    background-color: #29292975;
+    width: 207px;
+    margin: 15px 0px;
+    padding: 29.5px 121px;
+    height: 100px;
+}
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #d2b2a57a;
+  width: 2277px;
+  height: 69px;
+}
+.nav {
+  margin-top: 70px;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.navbar li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  word-spacing: 10px;
+}
+
+.navbar li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #090b0b7a;
+  border-radius: 15px;
+}
+
+.navbar li a:active {
+  color: white;
+}
+
+.left img {
+  width: 166px;
+}
+.left span {
+  font-size: 30px;
+  font-family: "Merienda", cursive;
+  font-weight: bold;
+  position: absolute;
+  top: 70px;
+  left: 160px;
+}
+
+.btn {
+  background-color: #f7e2bb7a;
+  font-size: 16px;
+  margin: 21px;
+  padding: 8px 30px;
+  border-radius: 8px;
+  border: #00000076;
+  display: block;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.648);
+}
+
+.aside {
+  background-color: #00000075;
+  color: rgb(255, 226, 226);
+  width: 207px;
+  font-size: 49px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 60px 115px;
+  margin: 351px -1px;
+  border-radius: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#welcomePhoto{
+  position: absolute;
+  top: 1600px;
+  left: 325px;
+  width: 750px;
+}
+main p#one {
+  position: absolute;
+  top: 1229px;
+  left:770px;
+  font-size:75px;
+  
+}
+main p#two {
+    position: absolute;
+    top: 1373px;
+    left: 761px;
+    font-size: 24px;
+    color: #6c6b6b;
+}
+
+#signUp {
+  position: absolute;
+    top: 1583px;
+    left: 1389px;
+    font-size: 50px;
+    color: #964b26de;
+}
+
+main p#three {
+    position: absolute;
+    top: 1620px;
+    left: 1166px;
+    font-size: 24px;
+    color: #6c6b6b;
+}
+
+.form-group{
+  display: inline-block;
+    position: absolute;
+    top: 1770px;
+    left: 1166px;
+    margin: 10px 2px;
+    padding: 2px 2px;
+    width: 985px;
+}
+.form-group input {
+    font-size: 20px;
+    border-radius: 35px;
+    padding: 24px 80px;
+    margin: 20px 40px;
+    border-color: #0000002e;
+    background-color:#fef8f4;
+}
+.form-group textarea{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',   sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 35px;
+    padding: 24px 80px;
+    margin: 20px 40px;
+    border-color: #0000002e;
+    background-color:#fef8f4;
+    width: 737px;
+    height: 200px;
+}
+
+.form-group .submitBTN {
+  color: white;
+  font-size: 20px;
+    width: 210px;
+    height: 66px;
+    margin: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 543px;
+    right: 363px;
+    border-radius: 35px;
+    background-color: #ef1f6a;
+    border-color:#ef1f6a;
+}
+.submitBTN:hover{
+  color:#ef1f6a;
+  background-color: rgb(255, 246, 246);
+  border-color: #ef1f6a;
+}
+
+
+
